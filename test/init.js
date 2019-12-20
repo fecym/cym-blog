@@ -1,5 +1,6 @@
 const program = require('commander')
 const symbols = require('log-symbols')
+const chalk = require('chalk')
 const inquirer = require('inquirer')
 const fs = require('fs')
 
@@ -26,7 +27,10 @@ program
       ])
       .then(answers => {
         console.log(answers)
-      })
+        console.log(symbols.info, chalk.green(`npm install && npm start`))
+        console.log(symbols.info, chalk.green(`or`))
+        console.log(symbols.info, chalk.green(`yarn install && yarn start`))
+    })
   })
 
 program.version(version, COMMAND.version).parse(process.argv)

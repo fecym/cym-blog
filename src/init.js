@@ -55,8 +55,14 @@ const init = () => {
           console.log(symbols.success, chalk.green('项目初始化完成'))
           console.log(symbols.success, chalk.green('执行以下命令运行您的项目'))
           console.log(symbols.info, chalk.green(`cd ${name}`))
+<<<<<<< HEAD
           console.log(symbols.info, chalk.green(`yarn install`))
           console.log(symbols.info, chalk.green(`yarn start`))
+=======
+          console.log(symbols.info, chalk.green(`npm install && npm start`))
+          console.log(symbols.info, chalk.green(`or`))
+          console.log(symbols.info, chalk.green(`yarn install && yarn start`))
+>>>>>>> fd5ff4e7b3d7ace43c2e042aa7264ca9c6b05409
           process.exit(0)
         }).catch(err => {
           spinner.fail()
@@ -70,4 +76,3 @@ const init = () => {
 }
 
 module.exports = init
-      

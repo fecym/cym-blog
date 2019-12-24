@@ -1,14 +1,17 @@
 # About My Cli
 
-该脚手架是基于 _vuepress_ 框架搭建，然后使用了 _vuepress-theme-reco-cli_ 主题，由于该主题有些我不喜欢的地方，我重新做了简单封装，做成了自己的博客项目的脚手架，欢迎交流相互学习。
+该脚手架是基于 `vuepress` 框架搭建，然后使用了 `vuepress-theme-reco-cli` 主题，由于该主题有些我不喜欢的地方，我重新做了简单封装，做成了自己的博客项目的脚手架，欢迎交流相互学习。
 
 ## Version
 
-1.1.3
+1.1.6
 
 ## Experience
 
 ```sh
+
+# show version
+npx cym-blog -v
 
 # create
 npx cym-blog init my-blog

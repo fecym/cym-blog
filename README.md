@@ -1,12 +1,13 @@
 # About My Cli
 
-该脚手架是基于 `vuepress` 框架搭建，然后使用了 `vuepress-theme-reco-cli` 主题，由于该主题有些我不喜欢的地方，我重新做了简单封装，做成了自己的博客项目的脚手架，欢迎交流相互学习。
+该脚手架是基于 `vuepress` 框架搭建，然后使用了 `vuepress-theme-reco-cli` 主题，对该主题做了一些简单封装，做成了自己的博客项目的脚手架，欢迎交流相互学习。
 
 ## Version
 
-1.1.7
+cym-blog -v 1.1.8
+cym-blog-template -v 2.0.0
 
-## Experience
+## Example
 
 ```sh
 
@@ -70,10 +71,10 @@ yarn build
 
 ## Blog
 
-[About me](http://chengyuming.cn/)
+[About me](https://chengyuming.cn/)
 
 ## Q&A
 
 博客模板下载完毕，下载博客依赖的时候推荐使用 yarn 下载
 
-如果您有任何疑问请来[这里留言](http://chengyuming.cn/views/big-front-end/npm/cli.html#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5)，我将会为您一一解答哦
+如果您有任何疑问请来[这里留言](https://chengyuming.cn/views/tools/npm/cli.html#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5)，我将会为您一一解答哦

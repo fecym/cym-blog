@@ -18,7 +18,7 @@ program
       .prompt([
         {
           name: 'description',
-          message: '请输入项目描述：'
+          message: '请输入博客描述：'
         },
         {
           name: 'author',

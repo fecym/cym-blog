@@ -11,7 +11,7 @@
     "rm:all-test": "rimraf ./test-*"
   },
   "bin": {
-    "cym-blog": "bin/index.js"
+    "cym-blog": "bin/www"
   },
   "keywords": [
     "blog",

@@ -4,7 +4,7 @@
 
 ## Version
 
-1.1.11
+1.2.0
 
 ## Example
 

@@ -1,10 +1,10 @@
 const downloadGit = require('download-git-repo')
-const { templateHerf } = require('./config')
+const { templateHref } = require('./config')
 
 module.exports = function(projectName) {
   return new Promise((resolve, reject) => {
     downloadGit(
-      `direct:${templateHerf}#master`,
+      `direct:${templateHref}#master`,
       projectName,
       { clone: true },
       err => {

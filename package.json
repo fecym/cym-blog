@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:init": "node test/init init my-blog",
-    "test:download": "node test/download",
+    "test:download": "npm run rm:all-test && node test/download",
     "test:all": "node test/testAll init test-blog",
     "//": "删除所有测试命令创建的项目",
     "rm:all-test": "rimraf ./test-*"
@@ -17,7 +17,7 @@
     "blog",
     "cli",
     "cym",
-    "chengyuming"
+    "fecym"
   ],
   "author": "chengyuming <yumingtarget@gmail.com> (https://github.com/fecym)",
   "license": "MIT",
